@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Evaluacion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <body>
+        <div id="registro" class="main-content">
+           <div class="container">
+            <section class="main-section">
+                <form action="../show.php" method="get">
+                    <div class="field">
+                        <label for="name1">Primer nombre:</label>
+                        <input type="text" name="name" id="name1" >
+                        <br>
+                        <label for="name2">Segundo nombre:</label>
+                        <input type="text" name="name" id="name2" >
+                        <br>
+                        <label for="name3">Primer apellido:</label>
+                        <input type="text" name="name" id="name3" >
+                        <br>
+                        <label for="name4">Segundo apellido:</label>
+                        <input type="text" name="name" id="name4" >
+                        <br>
+                        <div class="field">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Teléfono:</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+
+
+                        
+                        <div class="field">
+                            <button type="submit">Send</button>
+                        </div>
+                        
+                        
+
+                    </div>
+
+
+
+
+
+                </form>
+
+            </section>
+            <section class="main-section">
+                <form action="../show.php" method="post">
+                    <div class="field">
+                        <label for="mascotas">Tipo de mascotas:</label>
+                        <select id="mascotas" name="mascotas">
+                            <option value="Perro">Perro</option>
+                            <option value="Gato">Gato</option>
+                            <option value="Pajaro">Pajaro</option>
+                            <option value="Pez">Pez</option>
+                        </select>
+                        <div class="field">
+                            <label for="namem">Nombre de mascota:</label>
+                            <input type="text" name="names" id="namem" >
+                            <br>
+
+                    </div>
+                </form>
+
+            </section>
+
+
+           </div>
+
+        </div>
+
+    </body>
+    
+</body>
+</html>
